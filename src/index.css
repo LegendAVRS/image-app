@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.authen-btn {
+  @apply bg-black px-4 py-2 text-white rounded-3xl;
+  @apply hover:brightness-75;
+}
+
+.input-text {
+  @apply bg-slate-200 rounded-lg text-black outline-none focus:caret-black w-full p-2;
+}
+
+.search-bar {
+  @apply input-text;
+}
+
+.confirm-btn {
+  @apply px-4 py-2 bg-blue-400 rounded-3xl text-white font-bold;
+  @apply hover:brightness-75;
+}
+
+.h2-label {
+  @apply font-bold text-3xl m-auto mb-4;
+}
+
+.img-container-grid {
+  width: 100%;
+  columns: 1;
+  column-gap: 20px;
+}
